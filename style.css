@@ -1,0 +1,29 @@
+header h1{
+    text-align: center;
+}
+
+.navbar ul{
+    list-style-type: none; /* Ta bort punkt */
+    background-color: hsl(0,0%, 25%); /* Mörkgrå */
+    padding: 0;
+    margin: 0;
+
+    overflow: hidden;
+}
+
+.navbar a{ /* Designa länkarna */
+    color: white;
+    text-decoration: none; /* Ta bort ____ */
+    padding: 15px;
+    display: block;
+    text-align: center;
+}
+
+.navbar a:hover{
+    background-color: hsl(0,0%, 10%); /* ännu mörkare */
+    transition: 1s;
+}
+
+.navbar li{
+    float: left;
+}
